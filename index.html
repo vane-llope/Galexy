@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="affordable and profassional web design">
+    <meta name="keywords" content="web design,html,css,affordable web design,profasional web design">
+    <meta name="author" content="zahra sayahi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>zara</title>
+
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <!---->
+    <div class="showcase">
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </span>
+            <div class="bare-nav">
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">about us</a></li>
+                <li><a href="signIn.html">sign in</a> </li>
+            </ul>
+        </div>
+        </nav>
+   
+        <div class="text">
+            <h1 class="logo"><strong>LOGO</strong> <i class="fas fa-meteor"></i></h1>
+        
+        <p>You can use this site to check out some</br>
+             basic project and to
+            download the codes related.<br>
+            i wish you enjoy visiting my site.
+        </p>
+        <div class="button">
+        <a href="passwordGenerator.html">Let's start</a>
+        </div>
+            </div>
+        
+        <video src="./assets/video/4K Galaxy, Nebula Motion Background ,Milky Way, Free Video Background..mp4" muted
+            loop autoplay></video>
+    </div>
+    <!--side navbar-->
+    <div id="side-menu" class="side-nav ">
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">about us</a></li>
+            <li><a href="signIn.html">sign in</a> </li>
+        </ul>    
+    </div>
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+        }
+        function closeSideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+        }
+    </script>
+
+</body>
+
+</html>
